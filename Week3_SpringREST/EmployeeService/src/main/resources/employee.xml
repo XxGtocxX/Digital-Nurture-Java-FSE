@@ -40,5 +40,32 @@
         </constructor-arg>
 
     </bean>
+    <bean id="department1"
+          class="com.debanuj.employeeservice.model.Department">
+
+        <property name="id" value="1"/>
+        <property name="name" value="IT"/>
+
+    </bean>
+
+    <bean id="department2"
+          class="com.debanuj.employeeservice.model.Department">
+
+        <property name="id" value="2"/>
+        <property name="name" value="HR"/>
+
+    </bean>
+
+    <bean id="departmentList"
+          class="java.util.ArrayList">
+
+        <constructor-arg>
+            <list>
+                <ref bean="department1"/>
+                <ref bean="department2"/>
+            </list>
+        </constructor-arg>
+
+    </bean>
 
 </beans>
