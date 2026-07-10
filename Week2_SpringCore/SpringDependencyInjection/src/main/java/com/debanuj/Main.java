@@ -10,10 +10,10 @@ public class Main {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        HelloWorld hello =
-                (HelloWorld) context.getBean("helloWorld");
+        MessagePrinter printer =
+                context.getBean("messagePrinter", MessagePrinter.class);
 
-        hello.display();
+        printer.printMessage();
 
     }
 
