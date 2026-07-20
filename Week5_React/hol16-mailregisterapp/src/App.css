@@ -1,0 +1,29 @@
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:50px;
+}
+
+h1{
+    color:red;
+    margin-bottom:30px;
+}
+
+table{
+    border-spacing:10px;
+}
+
+input{
+    width:180px;
+    height:24px;
+}
+
+button{
+    width:80px;
+    height:30px;
+}
