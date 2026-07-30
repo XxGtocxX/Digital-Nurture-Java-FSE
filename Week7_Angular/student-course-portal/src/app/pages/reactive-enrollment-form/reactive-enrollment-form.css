@@ -1,0 +1,32 @@
+input,
+select{
+
+    margin-top:4px;
+    margin-bottom:8px;
+    padding:6px;
+
+}
+
+button{
+
+    margin-top:10px;
+
+}
+span{
+
+    color:red;
+
+}
+
+input,
+select{
+
+    padding:6px;
+
+}
+
+button{
+
+    margin:5px;
+
+}
